@@ -24,12 +24,12 @@ I am also doing this to apply what I learned when studying for the CompTIA A+ ce
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/network-diagnostics-script.git
+    git clone https://github.com/martinpare1208/NetworkTroubleshootingScript
     ```
 
 2. **Navigate to the script directory**:
     ```bash
-    cd network-diagnostics-script
+    cd NetworkTroubleshootingScript
     ```
 
 3. **Run the script**:
