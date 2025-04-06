@@ -25,24 +25,29 @@ Write-Output ""
 
 
 # Execute commands
+
+# execute command 1. ipconfig | shows basic network config
 if ($cleanInput -eq "1") {
     Write-Output "Showing network information..."
     Start-Sleep -Milliseconds 200
     ipconfig
 }
 
+# execute command 2. ipconfig /all | shows all network config
 if ($cleanInput -eq "2") {
     Write-Output "Showing network all information..."
     Start-Sleep -Milliseconds 200
     ipconfig /all
 }
 
+# execute command 3. ipconfig /flushdns | clears DNS resolver cache
 if ($cleanInput -eq "3") {
     Write-Output "Flushing DNS Resolver cache..."
     Start-Sleep -Milliseconds 200
     ipconfig /flushdns
 }
 
+# execute command 4. perform network troubleshooting commands (e.g: nslookup, ping, tracert)
 if ($cleanInput -eq "4") {
     Write-Output "Performing network diagnostics and tests..."
     Start-Sleep -Milliseconds 200
@@ -65,6 +70,7 @@ if ($cleanInput -eq "4") {
     tracert google.com
 }
 
+# execute command 5: show commands again
 if ($cleaninput -eq 5) {
     Write-Output "Showing commands again..."
     Start-Sleep -Milliseconds 200
@@ -78,6 +84,7 @@ if ($cleaninput -eq 5) {
     Write-Output "----------------------------------------------------------------"
 }
 
+# execute command 6: exit the script gracefully
 if ($cleaninput -eq 6) {
     Write-Output "Exiting script. Thank you!"
     Start-Sleep -Milliseconds 500
