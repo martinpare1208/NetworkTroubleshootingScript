@@ -5,7 +5,7 @@ This PowerShell script is designed to automate common network diagnostic tasks, 
 I am also doing this to apply what I learned when studying for the CompTIA A+ certification.
 
 ## Features
-- **Pre-Defined Network Diagnostics**: Run essential network commands with a single key press.
+- **Pre-Defined Network Diagnostics**: Run essential network commands with a single command.
 - **User-Friendly Interface**: Simple menu-driven interface to select commands.
 
   
